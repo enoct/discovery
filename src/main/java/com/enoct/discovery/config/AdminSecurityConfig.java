@@ -1,5 +1,6 @@
 package com.enoct.discovery.config;
 
+/*
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -20,4 +21,4 @@ public class AdminSecurityConfig extends WebSecurityConfigurerAdapter {
             .anyRequest().denyAll().and()
             .csrf().disable();
     }
-}
+}*/

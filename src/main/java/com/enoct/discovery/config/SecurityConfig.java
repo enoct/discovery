@@ -1,6 +1,6 @@
 package com.enoct.discovery.config;
 
-import org.springframework.beans.factory.annotation.Autowired;
+/*import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpMethod;
@@ -17,8 +17,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
         auth.inMemoryAuthentication()
-            .withUser("discUser")
-            .password("discPassword")
+            .withUser("user")
+            .password("password")
             .roles("SYSTEM");
     }
     @Override
@@ -33,4 +33,4 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
             .httpBasic().and()
             .csrf().disable();
     }
-}
+}*/
